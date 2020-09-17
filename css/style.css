@@ -1,0 +1,10 @@
+p, h2 {
+    margin:  30px 20%; 
+    font-family: 'Roboto', sans-serif;
+}
+h2 {
+    font-size: 20px;
+}
+p {
+    font-size: 15px;
+}

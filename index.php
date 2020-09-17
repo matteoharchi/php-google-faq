@@ -40,12 +40,14 @@ $array = [
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
     <title>Document</title>
 </head>
 <body>
     <?php foreach ($array as $key => $paragraph) { ?>
         <h2><?php echo $paragraph['title'];?></h2>
-        <p><?php echo $paragraph ['text']?></p>
+        <p><?php echo nl2br($paragraph ['text'])?></p>
 <?php } ?>
         
 </body>
